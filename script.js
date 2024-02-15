@@ -19,11 +19,13 @@ const gif = document.getElementById("gif-container");
 const mainText = document.getElementById("main-text");
 
 noButton.addEventListener("click", () => {
+    // Insert Tasks Here
+    numberOfTimesClicked++;
     if (numberOfTimesClicked >= noButtonPhrases.length) {
         numberOfTimesClicked = 0;
     };
     noButton.textContent = noButtonPhrases[numberOfTimesClicked];
-    // Insert Tasks Here
+    
     yesButton.style.fontSize = `${numberOfTimesClicked * 10 + 20}px`;
     const randomX = Math.random() * (window.innerWidth - noButton.clientWidth);
 const randomY = Math.random() * (window.innerHeight - noButton.clientHeight);
