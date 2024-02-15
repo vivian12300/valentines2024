@@ -37,5 +37,5 @@ yesButton.addEventListener("click", () => {
     yesButton.style.display = "none";
     noButton.style.display = "none";
     gif.src = "https://media.tenor.com/TEC6z0acIbUAAAAj/cute-bears-love.gif";
-    mainText.textContent = "yay! i knew you would say yes! <3";
+    mainText.textContent = "yay! :D";
 });
