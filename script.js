@@ -1,6 +1,6 @@
 const noButtonPhrases = [
-    "Please i love u", 
     "Please", 
+    "Please i love u", 
     "Please i said i love u", 
     "Pleaseeeeee", 
     "PLEASE", 
