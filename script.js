@@ -1,10 +1,10 @@
 const noButtonPhrases = [
+    "Please i love u", 
     "Please", 
-    "Please", 
-    "Please", 
+    "Please i said i love u", 
     "Pleaseeeeee", 
-    "Please", 
-    "Please", 
+    "PLEASE", 
+    "SAY YES RN", 
     "Please", 
     "Please",
 ];
