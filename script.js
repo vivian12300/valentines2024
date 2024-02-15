@@ -25,7 +25,6 @@ noButton.addEventListener("click", () => {
         numberOfTimesClicked = 0;
     };
     noButton.textContent = noButtonPhrases[numberOfTimesClicked];
-    
     yesButton.style.fontSize = `${numberOfTimesClicked * 10 + 20}px`;
     const randomX = Math.random() * (window.innerWidth - noButton.clientWidth);
 const randomY = Math.random() * (window.innerHeight - noButton.clientHeight);
